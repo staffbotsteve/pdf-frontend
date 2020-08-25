@@ -1,0 +1,33 @@
+.report {
+    background: white;
+    height: 100%;
+
+    .header {
+        padding: 2rem 3rem;
+        color: #026C84;
+        display: block;
+        text-align: center;
+    }
+
+    .content {
+        background: #F9F9F9;
+        padding: 2rem 5rem;
+
+        .title {
+            font-size: 28px;
+        }
+    }
+
+    .action-buttons {
+        display: flex;
+        a {
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            svg {
+                margin-right: 10px;
+            }
+        }
+    }
+}
